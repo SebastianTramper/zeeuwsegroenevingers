@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
@@ -113,6 +116,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1baMSXoINjGhw2GMmzqmgkOxJk7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -165,7 +169,7 @@
       <workItem from="1592422820920" duration="18000" />
       <workItem from="1592422847958" duration="9000" />
       <workItem from="1592738224916" duration="42000" />
-      <workItem from="1592738277798" duration="6928000" />
+      <workItem from="1592738277798" duration="7759000" />
     </task>
     <servers />
   </component>
