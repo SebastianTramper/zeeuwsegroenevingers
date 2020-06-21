@@ -1,0 +1,60 @@
+body{
+    font-family: $second-font-family;
+    background: $signal-white;
+}
+
+h1{
+    font-family: $primary-font-family!important;
+    font-size: 4rem!important;
+}
+
+h1 a{
+    font-family: $primary-font-family!important;
+    font-size: 4rem!important;
+    white-space: normal!important;
+}
+
+h2{
+    font-family: $second-font-family!important;
+    font-size: 3rem!important;
+}
+
+.container{
+    background: #fff!important;
+
+    span{
+        color: $primary-color;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.banner{
+    height: 15rem;
+}
+
+a{
+    color: $primary-color;
+}
+
+.btn-primary{
+    background: $primary-color!important;
+}
+
+form textarea{
+    min-height: 175px;
+}
+
+form label{
+    font-weight: bold;
+}
+
+form label span{
+    font-weight: normal;
+    font-style: italic;
+    color: initial!important;
+    opacity: .4;
+}

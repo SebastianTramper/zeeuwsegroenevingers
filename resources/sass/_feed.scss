@@ -1,0 +1,55 @@
+.feed{
+
+    .post{
+        border: 3px solid #f4f4f4;
+        padding: 15px;
+        margin-bottom: 100px;
+        z-index: 90;
+        background: #fff;
+
+        h1{
+           font-size: $second-font-size;
+        }
+
+        .post-date-contianer{
+            border: 3px solid #f4f4f4;
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #fff;
+            z-index: 100;
+
+            .post-date{
+                height: 100%;
+
+                p{
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    left: 50%;
+                    top: 50%;
+                    font-size: 1.3rem;
+                    font-family: $primary-font-family;
+                    transform: translateX(-50%) translateY(-50%);
+                }
+            }
+        }
+
+    }
+
+    .post-line{
+        height: 150px;
+        width: 2px;
+        background: $primary-color;
+        opacity: .3;
+        display: block;
+        left: 50%;
+        bottom: -130px;
+        transform: translateX(-50%);
+        z-index: 80;
+    }
+}
+
