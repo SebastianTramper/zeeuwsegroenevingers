@@ -130,7 +130,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uniekegerechten" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -170,7 +170,7 @@
       <workItem from="1592422847958" duration="9000" />
       <workItem from="1592738224916" duration="42000" />
       <workItem from="1592738277798" duration="9102000" />
-      <workItem from="1593148843045" duration="57000" />
+      <workItem from="1593148843045" duration="275000" />
     </task>
     <servers />
   </component>
@@ -198,10 +198,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589275987472" />
-    <state x="1700" y="277" key="FileChooserDialogImpl" timestamp="1592738874465">
+    <state x="1700" y="277" key="FileChooserDialogImpl" timestamp="1593149050193">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1700" y="277" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1592738874465" />
+    <state x="1700" y="277" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1593149050193" />
     <state x="1397" y="158" key="SettingsEditor" timestamp="1589707466804">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -222,9 +222,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1576" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1592756979720" />
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1593148883534">
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1593149061553">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1593148883534" />
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1593149061553" />
   </component>
 </project>
