@@ -31,12 +31,12 @@ Route::middleware('auth')->group(function() {
     Route::get('/categorie/edit', 'CategoriesController@edit')->name('categorie-edit');
     Route::put('/categorie/edit/{categories}', 'CategoriesController@update')->name('categorie-update');
     Route::delete('/categorie/delete/{categories}', 'CategoriesController@destroy')->name('categorie-delete');
+    Route::get('/categorie/{categories}', 'CategoriesController@show')->name('categorie-show');
 
+    Route::get('/{categories}', 'CategoriesController@index')->name('categorie');
+    Route::get('/{seizoen}', 'SeizoenController@index')->name('seizoen');
 });
 
-Route::get('/categorie/{categories}', 'CategoriesController@show')->name('categorie-show');
 
-Route::get('/{categories}', 'CategoriesController@index')->name('categorie');
-Route::get('/{seizoen}', 'SeizoenController@index')->name('seizoen');
 
 Route::get('/{categories}/{posts}', 'PostsControllers@show')->name('post');
