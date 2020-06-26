@@ -130,7 +130,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uniekegerechten" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -169,7 +169,8 @@
       <workItem from="1592422820920" duration="18000" />
       <workItem from="1592422847958" duration="9000" />
       <workItem from="1592738224916" duration="42000" />
-      <workItem from="1592738277798" duration="7759000" />
+      <workItem from="1592738277798" duration="9102000" />
+      <workItem from="1593148843045" duration="57000" />
     </task>
     <servers />
   </component>
@@ -221,9 +222,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1576" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1592756979720" />
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1592758611282">
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1593148883534">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1592758611282" />
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1593148883534" />
   </component>
 </project>
