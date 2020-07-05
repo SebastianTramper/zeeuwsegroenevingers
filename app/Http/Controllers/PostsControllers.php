@@ -50,7 +50,7 @@ class PostsControllers extends Controller
             'text' => 'required',
             'categorie' => 'required',
             'seizoen' => 'required',
-            'image' => 'sometimes|file|image|max:4000'
+            'image' => 'sometimes|file|image|max:20000'
         ]);
 
 

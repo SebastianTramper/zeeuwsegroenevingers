@@ -41,7 +41,7 @@ class CategoriesController extends Controller
     {
         request()->validate([
             'name' => 'required',
-            'image' => 'required|image|max:2048'
+            'image' => 'required|image|max:20000'
         ]);
 
         $categorie->name = request('name');
@@ -100,7 +100,7 @@ class CategoriesController extends Controller
     {
         request()->validate([
             'name' => 'required',
-            'image' => 'sometimes|file|image|max:2048'
+            'image' => 'sometimes|file|image|max:20000'
         ]);
         $categories->name = request('name');
 
