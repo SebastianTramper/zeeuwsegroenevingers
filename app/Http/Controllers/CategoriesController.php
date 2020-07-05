@@ -100,7 +100,7 @@ class CategoriesController extends Controller
     {
         request()->validate([
             'name' => 'required',
-            'image' => 'image|max:2048'
+            'image' => 'sometimes|file|image|max:2048'
         ]);
         $categories->name = request('name');
 

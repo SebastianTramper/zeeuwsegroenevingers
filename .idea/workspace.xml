@@ -113,6 +113,7 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/twitter/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1baMSXoINjGhw2GMmzqmgkOxJk7" />
@@ -171,7 +172,7 @@
       <workItem from="1592738224916" duration="42000" />
       <workItem from="1592738277798" duration="9102000" />
       <workItem from="1593148843045" duration="976000" />
-      <workItem from="1593959035385" duration="565000" />
+      <workItem from="1593959035385" duration="2035000" />
     </task>
     <servers />
   </component>
@@ -223,9 +224,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1576" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1592756979720" />
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1593959095874">
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1593960061140">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1593959095874" />
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1593960061140" />
   </component>
 </project>

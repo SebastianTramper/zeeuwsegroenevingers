@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <form action="{{ route('store') }}" class="w-75 needs-validation m-auto" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('store') }}" class="w-75  needs-validation m-auto" method="POST" enctype="multipart/form-data">
         @csrf
         <section class="form-group">
             <label>Titel:</label>
@@ -59,3 +59,9 @@
         </section>
     </form>
 @endsection
+
+<script>
+    Dropzone.options.myDropzone = {
+        url: '{{ route('store') }}'
+    };
+</script>
