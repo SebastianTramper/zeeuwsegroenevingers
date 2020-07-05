@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Input;
+use Intervention\Image\Facades\Image;
 
 class PostsControllers extends Controller
 {
@@ -49,7 +50,7 @@ class PostsControllers extends Controller
             'text' => 'required',
             'categorie' => 'required',
             'seizoen' => 'required',
-            'image' => 'sometimes|file|image|max:2048'
+            'image' => 'sometimes|file|image|max:4000'
         ]);
 
 
@@ -61,10 +62,16 @@ class PostsControllers extends Controller
         $post->categorie_id = request('categorie');
         $post->seizoen_id = request('seizoen');
 
+
         $imagePath = str_replace('public', '', Storage::putFile('public', $request->file('image')));
         $post->image = $imagePath;
         $post->save();
 
+        /*
+         * Crop images to the right size (using package http://image.intervention.io/)
+         */
+        $image = Image::make(public_path('storage' . $post->image))->fit(700,400);
+        $image->save();
         return redirect('/');
     }
 
