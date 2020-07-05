@@ -1,14 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-    <form action="{{ route('store') }}" class="w-75  needs-validation m-auto" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('store') }}" class="w-75 needs-validation m-auto" method="POST" enctype="multipart/form-data">
         @csrf
-        <section class="form-group">
+        <div class="form-group">
             <label>Titel:</label>
             <input type="text" name="title" class="form-control">
             @if($errors->has('title'))
                 <p class="alert-danger mt-2">Vergeet geen titel in te vullen</p>
             @endif
+        </div>
         </section>
         <section class="form-group">
             <label>Afbeelding: <span>(maximaal 2MB)</span></label>
@@ -60,8 +61,4 @@
     </form>
 @endsection
 
-<script>
-    Dropzone.options.myDropzone = {
-        url: '{{ route('store') }}'
-    };
-</script>
+
