@@ -13,6 +13,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -172,7 +179,7 @@
       <workItem from="1592738224916" duration="42000" />
       <workItem from="1592738277798" duration="9102000" />
       <workItem from="1593148843045" duration="976000" />
-      <workItem from="1593959035385" duration="11972000" />
+      <workItem from="1593959035385" duration="13336000" />
     </task>
     <servers />
   </component>
