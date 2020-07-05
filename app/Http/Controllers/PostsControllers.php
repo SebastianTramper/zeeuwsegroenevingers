@@ -69,6 +69,7 @@ class PostsControllers extends Controller
 
         /*
          * Crop images to the right size (using package http://image.intervention.io/)
+         * for local change storage/ to storage and in your view add storage before src
          */
         $image = Image::make(public_path('storage/' . $post->image))->fit(700,400);
         $image->save();
