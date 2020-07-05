@@ -27,7 +27,8 @@
         </section>
         <section class="form-group">
             <label>volledige beschrijving: <span>(op de website)</span></label>
-            <textarea name="text" class="form-control"></textarea>
+            <input id="x" type="hidden" name="text">
+            <trix-editor input="x"></trix-editor>
             @if($errors->has('text'))
                 <p class="alert-danger mt-2">Vergeet geen beschrijving in te vullen</p>
             @endif
