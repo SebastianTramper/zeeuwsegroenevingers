@@ -70,7 +70,7 @@ class PostsControllers extends Controller
         /*
          * Crop images to the right size (using package http://image.intervention.io/)
          */
-        $image = Image::make(public_path('storage' . $post->image))->fit(700,400);
+        $image = Image::make(public_path('storage/' . $post->image))->fit(700,400);
         $image->save();
         return redirect('/');
     }
