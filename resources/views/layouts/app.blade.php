@@ -19,7 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
+    <title>Zeeuwsegroenevingers | tuinieren blog</title>
 </head>
 <body>
     <div id="app" class="container">
