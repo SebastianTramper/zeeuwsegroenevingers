@@ -72,8 +72,8 @@
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a href="/create" class="dropdown-item">Nieuwe post</a>
-                                <a href="/categorie" class="dropdown-item">categorie instellingen</a>
+                                <a href="/create" class="dropdown-item">Nieuw artikel</a>
+                                <a href="/categorie" class="dropdown-item">categorieen</a>
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                    onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

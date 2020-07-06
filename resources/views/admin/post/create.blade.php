@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <form action="{{ route('store') }}" class="w-75 needs-validation m-auto" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('store') }}" class="needs-validation m-auto" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
             <label>Titel:</label>
