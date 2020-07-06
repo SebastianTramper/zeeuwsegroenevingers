@@ -138,7 +138,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../werk/mobielecamera" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -179,7 +179,7 @@
       <workItem from="1592738224916" duration="42000" />
       <workItem from="1592738277798" duration="9102000" />
       <workItem from="1593148843045" duration="976000" />
-      <workItem from="1593959035385" duration="13917000" />
+      <workItem from="1593959035385" duration="15192000" />
     </task>
     <servers />
   </component>
@@ -207,10 +207,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589275987472" />
-    <state x="1700" y="277" key="FileChooserDialogImpl" timestamp="1593149050193">
+    <state x="1700" y="277" key="FileChooserDialogImpl" timestamp="1594021155838">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1700" y="277" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1593149050193" />
+    <state x="1700" y="277" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1594021155838" />
     <state x="1397" y="158" key="SettingsEditor" timestamp="1589707466804">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
