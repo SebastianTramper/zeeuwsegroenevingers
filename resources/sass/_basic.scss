@@ -3,6 +3,10 @@ body{
     background: $signal-white;
 }
 
+nav{
+    background: $signal-white;;
+}
+
 h1{
     font-family: $primary-font-family!important;
     font-size: 4rem!important;
@@ -19,11 +23,11 @@ h2{
     font-size: 3rem!important;
 }
 
-.container{
-    background: #fff!important;
+.header-title a{
+   color: $dark!important;
 
     span{
-        color: $primary-color;
+        color: $primary-color!important;
     }
 }
 
@@ -35,7 +39,9 @@ img{
 .banner{
     height: 15rem;
 }
-
+.navbar{
+    border-bottom: 1px solid $primary-color!important;
+}
 a{
     color: $primary-color;
 }

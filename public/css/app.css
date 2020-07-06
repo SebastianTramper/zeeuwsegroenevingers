@@ -12017,6 +12017,10 @@ body {
   background: #f4f4f4;
 }
 
+nav {
+  background: #f4f4f4;
+}
+
 h1 {
   font-family: "Niconne", cursive !important;
   font-size: 4rem !important;
@@ -12033,12 +12037,12 @@ h2 {
   font-size: 3rem !important;
 }
 
-.container {
-  background: #fff !important;
+.header-title a {
+  color: #343a40 !important;
 }
 
-.container span {
-  color: #00916E;
+.header-title a span {
+  color: #00916E !important;
 }
 
 img {
@@ -12047,6 +12051,10 @@ img {
 
 .banner {
   height: 15rem;
+}
+
+.navbar {
+  border-bottom: 1px solid #00916E !important;
 }
 
 a {
