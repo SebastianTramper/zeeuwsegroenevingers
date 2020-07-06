@@ -44,7 +44,7 @@
         <section class="banner w-100" style="background: url( {{asset('img/banner.jpeg')}} ) center/cover;"></section>
     </div>
     <div class="container p-0">
-        <nav class="navbar bg-white navbar-expand-md d-block">
+        <nav class="navbar bg-white navbar-light navbar-expand-md d-block">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
             </button>
