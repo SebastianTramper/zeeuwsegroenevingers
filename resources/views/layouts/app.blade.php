@@ -90,10 +90,10 @@
             </div>
         </nav>
     </div>
-    <main class="pt-5 bg-white container">
+    <main class="pt-5 pb-5 bg-white container">
         @yield('content')
     </main>
-    <footer class="w-100 container position-relative mt-5">
+    <footer class="w-100 container position-relative">
 
     </footer>
 </div>
