@@ -55,7 +55,7 @@ class PostsControllers extends Controller
 
 
         $slug = str_replace(" ", "-", request('title'));
-        $slugCategorie = str_replace(" ", "-", request('categorie'));
+        $slugCategorie = str_replace(" ", "-", Categorie::all()->where('id', '=', request('categorie')));
         $post->slug = $slugCategorie . "/" . $slug;
         $post->title = request('title');
         $post->excerpt = request('excerpt');
