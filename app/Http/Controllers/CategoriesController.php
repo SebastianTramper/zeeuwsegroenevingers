@@ -41,10 +41,12 @@ class CategoriesController extends Controller
     {
         request()->validate([
             'name' => 'required',
+            'description' => 'required',
             'image' => 'required|image|max:20000'
         ]);
 
         $categorie->name = request('name');
+        $categorie->description = request('description');
 
         $imagePath = str_replace('public', '', Storage::putFile('public', $request->file('image')));
         $categorie->image = $imagePath;
@@ -100,11 +102,13 @@ class CategoriesController extends Controller
     {
         request()->validate([
             'name' => 'required',
+            'description' => 'required',
             'image' => 'sometimes|file|image|max:20000'
         ]);
         $categories->name = request('name');
-
+        $categories->description = request('description');
         $imageInput = $request->hasFile('image');
+
         if($imageInput){
             $imagePath = str_replace('public', '', Storage::putFile('public', $request->file('image')));
             $categories->image = $imagePath;
