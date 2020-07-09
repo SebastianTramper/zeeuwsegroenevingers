@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Input;
 use Intervention\Image\Facades\Image;
+use function GuzzleHttp\Psr7\str;
 
 class PostsControllers extends Controller
 {
@@ -55,7 +56,8 @@ class PostsControllers extends Controller
 
 
         $slug = str_replace(" ", "-", request('title'));
-        $slugCategorie = str_replace(" ", "-", Categorie::where('id', '=', request('categorie'))->pluck('name'));
+        $categorie = Categorie::where('id', '=', request('categorie'))->pluck('name');
+        $slugCategorie = str_replace(" ", "-", $categorie[0]);
         $post->slug = $slugCategorie . "/" . $slug;
         $post->title = request('title');
         $post->excerpt = request('excerpt');

@@ -8,7 +8,7 @@
                 <h1 class="mb-3">{{ $p->title }}</h1>
                 <img src="storage/{{ $p->image  }}" alt="">
                 <p class="mt-4 mb-1">{{ $p->excerpt }}</p>
-                <a href="/{{ $p->categorie->name }}/{{ $p->slug }}">Lees verder</a>
+                <a href="/{{ $p->slug }}">Lees verder</a>
                 <div class="post-date-contianer d-inline-block position-absolute">
                     <div class="post-date position-relative">
                         <p class="position-absolute">{{ $post_time }}</p>
