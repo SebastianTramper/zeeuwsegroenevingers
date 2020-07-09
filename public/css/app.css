@@ -12065,7 +12065,7 @@ a :hover {
   text-decoration: none;
 }
 
-.feed .post :hover {
+.feed .post:hover {
   background: #f4f4f4;
 }
 

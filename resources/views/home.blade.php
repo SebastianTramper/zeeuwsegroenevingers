@@ -3,7 +3,7 @@
 @section('content')
     <div class="feed container col-md-8">
         @foreach($post as $p)
-            <a href="/{{ $p->slug }}" class="post-container text-dark position-relative">
+            <a href="/{{ $p->slug }}" class="post-container d-block text-dark">
                 <section class="post position-relative pb-5">
                     <h1 class="mb-3 text-dark">{{ $p->title }}</h1>
                     <img src="storage/{{ $p->image  }}" alt="">
