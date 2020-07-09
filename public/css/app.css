@@ -177,7 +177,7 @@ a {
 
 a:hover {
   color: #1d68a7;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]) {
@@ -3318,12 +3318,12 @@ fieldset:disabled a.btn {
 
 .btn-link:hover {
   color: #1d68a7;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:focus,
 .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
   box-shadow: none;
 }
 
@@ -12059,6 +12059,14 @@ img {
 
 a {
   color: #00916E;
+}
+
+a :hover {
+  text-decoration: none;
+}
+
+.feed .post :hover {
+  background: #f4f4f4;
 }
 
 .btn-primary {

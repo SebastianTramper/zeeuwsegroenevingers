@@ -44,8 +44,19 @@ img{
 }
 a{
     color: $primary-color;
+
+    :hover{
+       text-decoration: none;
+    }
 }
 
+.feed{
+    .post{
+        :hover{
+            background: #f4f4f4;
+        }
+    }
+}
 .btn-primary{
     background: $primary-color!important;
 }
