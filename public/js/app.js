@@ -37651,7 +37651,7 @@ __webpack_require__(/*! ./attachments */ "./resources/js/attachments.js");
 /***/ (function(module, exports) {
 
 (function () {
-  var HOST = "https://zeeuwsegroenevingers.nl/storage/";
+  var HOST = "https://source.unsplash.com/random";
   addEventListener("trix-attachment-add", function (event) {
     if (event.attachment.file) {
       uploadFileAttachment(event.attachment);
