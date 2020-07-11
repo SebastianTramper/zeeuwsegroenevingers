@@ -140,7 +140,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../werk/campuszeeland" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -182,6 +182,7 @@
       <workItem from="1593959035385" duration="17799000" />
       <workItem from="1594221120500" duration="6411000" />
       <workItem from="1594368338824" duration="10000" />
+      <workItem from="1594479240363" duration="482000" />
     </task>
     <servers />
   </component>
@@ -213,10 +214,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="277" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1594368346860" />
-    <state x="1397" y="158" key="SettingsEditor" timestamp="1589707466804">
+    <state x="1397" y="158" key="SettingsEditor" timestamp="1594479619717">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1397" y="158" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1589707466804" />
+    <state x="1397" y="158" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1594479619717" />
     <state x="485" y="426" key="WebDeployment.AddServerDialog.v.1" timestamp="1589132720556">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
