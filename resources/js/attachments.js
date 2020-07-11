@@ -1,5 +1,5 @@
 (function() {
-    var HOST = "https://zeeuwsegroenevingers.nl/create"
+    var HOST = "https://zeeuwsegroenevingers.nl/"
 
     addEventListener("trix-attachment-add", function(event) {
         if (event.attachment.file) {
